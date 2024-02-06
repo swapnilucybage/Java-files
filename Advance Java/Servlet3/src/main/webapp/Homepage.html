@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Image</title>
+</head>
+<body>
+    <img id="image" src="" alt="Image">
+    
+    <script>
+        // Function to set the image source from servlet
+        function setImageSource(imageId) {
+            var image = document.getElementById("image");
+            image.src = "image?imageId=" + imageId;
+        }
+        
+        // Call the function with the image ID
+        setImageSource(1); // Example: Replace 1 with the actual image ID
+    </script>
+</body>
+</html>
