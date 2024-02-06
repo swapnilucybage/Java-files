@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="RegisterController" method="post">
+
+	<table cellspacing="4px" cellpadding="5px">
+		
+		<tr>
+			<td>Name</td>
+			<td><input type="text" name="cust_name"></td>
+		</tr>
+		
+		<tr>
+			<td>Email</td>
+			<td><input type="email" name="cust_email"></td>
+		</tr>
+		
+		<tr>
+			<td>Password</td>
+			<td><input type="password" name="cust_pass"></td>
+		</tr>
+		
+		<tr>
+			<td>Address</td>
+			<td><textarea name="cust_add" rows="7" cols="20"></textarea></td>
+		</tr>
+		
+		<tr>
+			<td>Gender</td>
+			<td>Male<input type="radio" name="cust_gend" value="Male">
+				Female<input type="radio" name="cust_gend" value="Female">
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Date Of Birth</td>
+			<td><input type="date" name="cust_dob"></td>
+		</tr>
+		
+		<tr>
+			<td><input type="submit" value="Register"></td>
+			<td><input type="reset" value="Cancel"></td>
+		</tr>
+	
+	</table>
+
+</form>
+</body>
+</html>
